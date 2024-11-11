@@ -20,9 +20,3 @@
 #    update-submodules:
 #      run: git submodule update --init --recursive
 
-
-post-merge:
-  parallel: true
-  commands:
-    start:
-      run: echo "Post-merge hook is temporarily disabled."
