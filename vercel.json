@@ -6,6 +6,10 @@
 				{
 					"key": "Content-Security-Policy",
 					"value": "default-src 'self'; frame-src 'self' https://pokerogue-seven.vercel.app/"
+				},
+				{
+					"key": "X-Frame-Options",
+					"value": "ALLOW-FROM https://pokerogue-seven.vercel.app/"
 				}
 			]
 		}
